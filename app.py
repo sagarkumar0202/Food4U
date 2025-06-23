@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
-st.title("Diabetes Prediction App")
+st.title("Diabetes Prediction Apps")
 
 data = pd.read_csv("diabetes_data.csv")
 st.write(data)
